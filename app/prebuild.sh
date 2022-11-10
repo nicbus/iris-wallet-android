@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-mkdir -p app/src/main/cpp
+mkdir -p src/main/cpp
 
-cat <<EOF >app/src/main/cpp/secrets.cpp
+cat <<EOF >src/main/cpp/secrets.cpp
 #include <jni.h>
 #include <string>
 extern "C"
